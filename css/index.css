@@ -1,0 +1,59 @@
+.principal {
+	width: 100%;
+	overflow: hidden;
+	background: url(../img/22.jpg) no-repeat;
+	filter: brightness(90%);
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.principal::before {
+	padding-top: 52.2%;
+	content: "";
+	display: block;
+	margin: 0 auto;
+}
+
+.principal::after {
+	padding-top: 52%;
+	content: "";
+	display: block;
+	margin: 0 auto;
+}
+
+.centered-div{
+	width: 620px;
+	height: 530px;
+/* 	background-color: aliceblue; */
+	color: #fff;
+}
+.head {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	border-radius: 50%;
+	background: url(../img/a.jpg) no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 0 2px hsl(0deg 0% 100% / 50%), 0 2px 20px 3px rgb(0 0 0 / 25%);
+}
+p.title{
+	text-align: center;
+	font-size: 45px;
+	color: #fff;
+	margin-top: 10px;
+	cursor: default;
+	font-family: "华文楷体";
+	font-weight: bold;
+}
+p{
+	color: #ccc;
+	font-size: 20px;
+	font-weight: 200;
+	text-align: center;
+	line-height: 50px;
+}
+p a{
+	color: #fff;
+}

@@ -1,0 +1,35 @@
+/* 清除页面虽有元素默认元素 */
+*{
+	/* 不建议使用 */
+}
+body,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dt,dd{
+	/* 外边距 */
+	margin: 0;
+	/* 内边距 */
+	padding: 0;
+}
+body{
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+ul{
+	/* 清除列表默认符号 */
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+/* 设置页面安全距离 */
+header,section,feBlend{
+	width: 1200px;
+	/* 设置块级元素水平居中显示 */
+	margin: 0 auto;
+}
+
+/* 内容生成清除浮动带来的高度坍塌问题 */
+.clearfix:after{
+	display: block;
+	content: "";
+	clear: both;
+}
